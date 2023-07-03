@@ -1,3 +1,11 @@
+# Dataset files and folder
+flower_data.tar
+flower_data/
+
+# Misc files to ignore
+.DS_Store
+rubric.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
