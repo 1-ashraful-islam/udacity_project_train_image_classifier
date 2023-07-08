@@ -1,10 +1,10 @@
-# Dataset files and folder
-flower_data.tar
+# Dataset files and folder, checkpoints
 flower_data/
+references/
+checkpoint.pth
 
 # Misc files to ignore
 .DS_Store
-rubric.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
