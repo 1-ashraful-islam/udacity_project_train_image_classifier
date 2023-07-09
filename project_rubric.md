@@ -8,19 +8,19 @@ Files Submitted:
 
 For a successful project submission, you'll need to include these files in a ZIP archive (Not sure if we need to submit zip archive if submitted using GitHub):
 
-- <input type="checkbox"> The completed Jupyter Notebook from Part 1 as an HTML file and any extra files you created that are necessary to run the code in the notebook
+- <input type="checkbox" checked> The completed Jupyter Notebook from Part 1 as an HTML file and any extra files you created that are necessary to run the code in the notebook
 
-- <input type="checkbox"> The train.py and predict.py files from Part 2, as well as any other files necessary to run those scripts
+- <input type="checkbox" checked> The `train.py` and `predict.py` files from Part 2, as well as any other files necessary to run those scripts
 
 
 ====================================
 
-# Project Specifications/Rubric
+# Project Rubric
 ---------------------
 
 |  | Criteria | Meets Specifications |
 | ---| --- | --- |
-| <input type="checkbox"> | Submission Files | The submission includes all required files. (Model checkpoints not required.) |
+| <input type="checkbox" checked> | Submission Files | The submission includes all required files. (Model checkpoints not required.) |
 
 ## Part 1 - Development Notebook
 
@@ -46,12 +46,12 @@ For a successful project submission, you'll need to include these files in a ZIP
 
 |  | Criteria | Meets Specifications |
 | --- | --- | --- |
-| <input type="checkbox"> | Training a network | train.py successfully trains a new network on a dataset of images and saves the model to a checkpoint |
-| <input type="checkbox"> | Training validation log | The training loss, validation loss, and validation accuracy are printed out as a network trains |
-| <input type="checkbox"> | Model architecture | The training script allows users to choose from at least two different architectures available from torchvision.models |
-| <input type="checkbox"> | Model hyperparameters | The training script allows users to set hyperparameters for learning rate, number of hidden units, and training epochs |
-| <input type="checkbox"> | Training with GPU | The training script allows users to choose training the model on a GPU |
-| <input type="checkbox"> | Predicting classes | The predict.py script successfully reads in an image and a checkpoint then prints the most likely image class and it's associated probability |
-| <input type="checkbox"> | Top K classes | The predict.py script allows users to print out the top K classes along with associated probabilities |
-| <input type="checkbox"> | Displaying class names | The predict.py script allows users to load a JSON file that maps the class values to other category names |
-| <input type="checkbox"> | Predicting with GPU | The predict.py script allows users to use the GPU to calculate the predictions |\
+| <input type="checkbox" checked> | Training a network | `train.py` successfully trains a new network on a dataset of images and saves the model to a checkpoint |
+| <input type="checkbox" checked> | Training validation log | The training loss, validation loss, and validation accuracy are printed out as a network trains |
+| <input type="checkbox" checked> | Model architecture | The training script allows users to choose from at least two different architectures available from torchvision.models |
+| <input type="checkbox" checked> | Model hyperparameters | The training script allows users to set hyperparameters for learning rate, number of hidden units, and training epochs |
+| <input type="checkbox" checked> | Training with GPU | The training script allows users to choose training the model on a GPU |
+| <input type="checkbox" checked> | Predicting classes | The `predict.py` script successfully reads in an image and a checkpoint then prints the most likely image class and it's associated probability |
+| <input type="checkbox" checked> | Top K classes | The `predict.py` script allows users to print out the top K classes along with associated probabilities |
+| <input type="checkbox" checked> | Displaying class names | The `predict.py` script allows users to load a JSON file that maps the class values to other category names |
+| <input type="checkbox" checked> | Predicting with GPU | The `predict.py` script allows users to use the GPU to calculate the predictions |
